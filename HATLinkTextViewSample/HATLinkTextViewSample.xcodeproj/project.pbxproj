@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5FBEEC1B636B4400B52D23 /* HATLinkTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5FBEEB1B636B4400B52D23 /* HATLinkTextView.m */; };
+		3B67ECAD1B635A6D0010035D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67ECAC1B635A6D0010035D /* main.m */; };
+		3B67ECB01B635A6D0010035D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67ECAF1B635A6D0010035D /* AppDelegate.m */; };
+		3B67ECB31B635A6D0010035D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67ECB21B635A6D0010035D /* ViewController.m */; };
+		3B67ECB61B635A6D0010035D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B67ECB41B635A6D0010035D /* Main.storyboard */; };
+		3B67ECB81B635A6D0010035D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B67ECB71B635A6D0010035D /* Images.xcassets */; };
+		3B67ECBB1B635A6D0010035D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B67ECB91B635A6D0010035D /* LaunchScreen.xib */; };
+		3B67ECC71B635A6D0010035D /* HATLinkTextViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67ECC61B635A6D0010035D /* HATLinkTextViewSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B67ECC11B635A6D0010035D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B67EC9F1B635A6D0010035D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B67ECA61B635A6D0010035D;
+			remoteInfo = HATLinkTextViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B5FBEEA1B636B4400B52D23 /* HATLinkTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HATLinkTextView.h; sourceTree = "<group>"; };
+		3B5FBEEB1B636B4400B52D23 /* HATLinkTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HATLinkTextView.m; sourceTree = "<group>"; };
+		3B67ECA71B635A6D0010035D /* HATLinkTextViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HATLinkTextViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B67ECAB1B635A6D0010035D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B67ECAC1B635A6D0010035D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B67ECAE1B635A6D0010035D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B67ECAF1B635A6D0010035D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B67ECB11B635A6D0010035D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B67ECB21B635A6D0010035D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B67ECB51B635A6D0010035D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B67ECB71B635A6D0010035D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B67ECBA1B635A6D0010035D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B67ECC01B635A6D0010035D /* HATLinkTextViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HATLinkTextViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B67ECC51B635A6D0010035D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B67ECC61B635A6D0010035D /* HATLinkTextViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HATLinkTextViewSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B67ECA41B635A6D0010035D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B67ECBD1B635A6D0010035D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5FBEE91B636B4400B52D23 /* HATLinkTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3B5FBEEA1B636B4400B52D23 /* HATLinkTextView.h */,
+				3B5FBEEB1B636B4400B52D23 /* HATLinkTextView.m */,
+			);
+			name = HATLinkTextView;
+			path = ../HATLinkTextView;
+			sourceTree = "<group>";
+		};
+		3B67EC9E1B635A6D0010035D = {
+			isa = PBXGroup;
+			children = (
+				3B5FBEE91B636B4400B52D23 /* HATLinkTextView */,
+				3B67ECA91B635A6D0010035D /* HATLinkTextViewSample */,
+				3B67ECC31B635A6D0010035D /* HATLinkTextViewSampleTests */,
+				3B67ECA81B635A6D0010035D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B67ECA81B635A6D0010035D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B67ECA71B635A6D0010035D /* HATLinkTextViewSample.app */,
+				3B67ECC01B635A6D0010035D /* HATLinkTextViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B67ECA91B635A6D0010035D /* HATLinkTextViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				3B67ECAE1B635A6D0010035D /* AppDelegate.h */,
+				3B67ECAF1B635A6D0010035D /* AppDelegate.m */,
+				3B67ECB11B635A6D0010035D /* ViewController.h */,
+				3B67ECB21B635A6D0010035D /* ViewController.m */,
+				3B67ECB41B635A6D0010035D /* Main.storyboard */,
+				3B67ECB71B635A6D0010035D /* Images.xcassets */,
+				3B67ECB91B635A6D0010035D /* LaunchScreen.xib */,
+				3B67ECAA1B635A6D0010035D /* Supporting Files */,
+			);
+			path = HATLinkTextViewSample;
+			sourceTree = "<group>";
+		};
+		3B67ECAA1B635A6D0010035D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B67ECAB1B635A6D0010035D /* Info.plist */,
+				3B67ECAC1B635A6D0010035D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B67ECC31B635A6D0010035D /* HATLinkTextViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B67ECC61B635A6D0010035D /* HATLinkTextViewSampleTests.m */,
+				3B67ECC41B635A6D0010035D /* Supporting Files */,
+			);
+			path = HATLinkTextViewSampleTests;
+			sourceTree = "<group>";
+		};
+		3B67ECC41B635A6D0010035D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B67ECC51B635A6D0010035D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B67ECA61B635A6D0010035D /* HATLinkTextViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B67ECCA1B635A6D0010035D /* Build configuration list for PBXNativeTarget "HATLinkTextViewSample" */;
+			buildPhases = (
+				3B67ECA31B635A6D0010035D /* Sources */,
+				3B67ECA41B635A6D0010035D /* Frameworks */,
+				3B67ECA51B635A6D0010035D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HATLinkTextViewSample;
+			productName = HATLinkTextViewSample;
+			productReference = 3B67ECA71B635A6D0010035D /* HATLinkTextViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B67ECBF1B635A6D0010035D /* HATLinkTextViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B67ECCD1B635A6D0010035D /* Build configuration list for PBXNativeTarget "HATLinkTextViewSampleTests" */;
+			buildPhases = (
+				3B67ECBC1B635A6D0010035D /* Sources */,
+				3B67ECBD1B635A6D0010035D /* Frameworks */,
+				3B67ECBE1B635A6D0010035D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B67ECC21B635A6D0010035D /* PBXTargetDependency */,
+			);
+			name = HATLinkTextViewSampleTests;
+			productName = HATLinkTextViewSampleTests;
+			productReference = 3B67ECC01B635A6D0010035D /* HATLinkTextViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B67EC9F1B635A6D0010035D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Hatuyuki4;
+				TargetAttributes = {
+					3B67ECA61B635A6D0010035D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3B67ECBF1B635A6D0010035D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3B67ECA61B635A6D0010035D;
+					};
+				};
+			};
+			buildConfigurationList = 3B67ECA21B635A6D0010035D /* Build configuration list for PBXProject "HATLinkTextViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B67EC9E1B635A6D0010035D;
+			productRefGroup = 3B67ECA81B635A6D0010035D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B67ECA61B635A6D0010035D /* HATLinkTextViewSample */,
+				3B67ECBF1B635A6D0010035D /* HATLinkTextViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B67ECA51B635A6D0010035D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B67ECB61B635A6D0010035D /* Main.storyboard in Resources */,
+				3B67ECBB1B635A6D0010035D /* LaunchScreen.xib in Resources */,
+				3B67ECB81B635A6D0010035D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B67ECBE1B635A6D0010035D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B67ECA31B635A6D0010035D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B67ECB31B635A6D0010035D /* ViewController.m in Sources */,
+				3B67ECB01B635A6D0010035D /* AppDelegate.m in Sources */,
+				3B67ECAD1B635A6D0010035D /* main.m in Sources */,
+				3B5FBEEC1B636B4400B52D23 /* HATLinkTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B67ECBC1B635A6D0010035D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B67ECC71B635A6D0010035D /* HATLinkTextViewSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B67ECC21B635A6D0010035D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B67ECA61B635A6D0010035D /* HATLinkTextViewSample */;
+			targetProxy = 3B67ECC11B635A6D0010035D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B67ECB41B635A6D0010035D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B67ECB51B635A6D0010035D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B67ECB91B635A6D0010035D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B67ECBA1B635A6D0010035D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B67ECC81B635A6D0010035D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B67ECC91B635A6D0010035D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B67ECCB1B635A6D0010035D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HATLinkTextViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B67ECCC1B635A6D0010035D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HATLinkTextViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B67ECCE1B635A6D0010035D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HATLinkTextViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HATLinkTextViewSample.app/HATLinkTextViewSample";
+			};
+			name = Debug;
+		};
+		3B67ECCF1B635A6D0010035D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HATLinkTextViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HATLinkTextViewSample.app/HATLinkTextViewSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B67ECA21B635A6D0010035D /* Build configuration list for PBXProject "HATLinkTextViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B67ECC81B635A6D0010035D /* Debug */,
+				3B67ECC91B635A6D0010035D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B67ECCA1B635A6D0010035D /* Build configuration list for PBXNativeTarget "HATLinkTextViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B67ECCB1B635A6D0010035D /* Debug */,
+				3B67ECCC1B635A6D0010035D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B67ECCD1B635A6D0010035D /* Build configuration list for PBXNativeTarget "HATLinkTextViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B67ECCE1B635A6D0010035D /* Debug */,
+				3B67ECCF1B635A6D0010035D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B67EC9F1B635A6D0010035D /* Project object */;
+}
