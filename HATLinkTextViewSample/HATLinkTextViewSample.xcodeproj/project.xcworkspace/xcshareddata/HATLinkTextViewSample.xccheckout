@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C610528A-E109-4D53-BBBB-76F9EB74976D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HATLinkTextViewSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2DAEBC23C540BF23FA1DB0592365592BE16A7EB2</key>
+		<string>https://github.com/hatuyuki4/HATLinkTextView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HATLinkTextViewSample/HATLinkTextViewSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2DAEBC23C540BF23FA1DB0592365592BE16A7EB2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hatuyuki4/HATLinkTextView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2DAEBC23C540BF23FA1DB0592365592BE16A7EB2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2DAEBC23C540BF23FA1DB0592365592BE16A7EB2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HATLinkTextView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
