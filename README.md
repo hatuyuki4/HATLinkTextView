@@ -1,0 +1,2 @@
+# HATLinkTextView
+リンク付きのテキストビュー
